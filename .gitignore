@@ -1,0 +1,7 @@
+/core/public/images
+/core/vendor
+/core/.env
+/core/.env.bak
+/assets/admin/img
+/assets/front/user/img
+/assets/front/img
