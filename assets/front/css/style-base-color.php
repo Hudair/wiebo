@@ -122,14 +122,16 @@ color: <?php echo htmlspecialchars($color); ?>;
 .breadcrumbs-section .breadcrumbs-content ul.breadcrumbs-link li a{
 color: <?php echo htmlspecialchars($color); ?>;
 }
-.saas-banner .hero-content ul li .video-popup{
-background: <?php echo htmlspecialchars($color); ?>;
+.saas-banner .hero-content ul li .video-popup {
+    background: #4CFF26;
+    display: none;
 }
 .saas-banner .hero-content span.span:after{
 background: <?php echo htmlspecialchars($color); ?>;
 }
-.saas-banner .hero-content span.span{
-color: <?php echo htmlspecialchars($color); ?>;
+.saas-banner .hero-content span.span {
+    color: #4CFF26;
+    display: none;
 }
 .header-navigation .navbar-close{
 background: <?php echo htmlspecialchars($color); ?>;

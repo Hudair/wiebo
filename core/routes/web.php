@@ -907,3 +907,6 @@ Route::group(['domain' => $domain, 'prefix' => $prefix], function() {
     });
 });
 
+Route::prefix('update')->group(function() {
+  Route::get('/version', 'UpdateController@upversion')->name('update.version');
+});
